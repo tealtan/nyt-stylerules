@@ -15,6 +15,9 @@
 - Tone shouldn't include "feed", there should be a value `"block" : ["feed"]`.  If block doesn't matter, of course, just leave it out.  These changes aren't in the json yet, but I intend to make them unless there are objections
 
 ## Missing values
+- Byline
+- Excerpt
+
 I'm working on a test that tries to find a match for every possible card permutation.  It dumps out a LOT of text, but I think the fixes won't be that bad :) I included example output from the `headline` rules.  It seems to be missing "medium" viewport in many rules and missing a few "soft" tone rules, among others.
 
 An example of a set which completely satisfies this test is `timestamp`!  
