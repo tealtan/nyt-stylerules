@@ -31,19 +31,19 @@
       }
     },
     {
-      "name": "red_10",
+      "name": "breaking-color",
       "values": {
-        "day": "#a81817"
+        "day": "#d0021b"
       }
     },
     {
-      "name": "orange_10",
+      "name": "developing-color",
       "values": {
-        "day": "#eb6e00"
+        "day": "#f48751"
       }
     },
     {
-      "name": "orange_20",
+      "name": "live-color",
       "values": {
         "day": "#ff3219"
       }
@@ -299,7 +299,7 @@
       "font_size": "10",
       "line_height": "12",
       "letterspacing": "1.5",
-      "color": "red_10",
+      "color": "breaking-color",
       "alignment": "left"
     },
     {
@@ -308,7 +308,7 @@
       "font_size": "10",
       "line_height": "12",
       "letterspacing": "1.5",
-      "color": "orange_10",
+      "color": "developing-color",
       "alignment": "left"
     },
     {
@@ -317,7 +317,7 @@
       "font_size": "10",
       "line_height": "12",
       "letterspacing": "1.5",
-      "color": "orange_20",
+      "color": "live-color",
       "alignment": "left"
     }
   ],
