@@ -41,6 +41,12 @@
       "values": {
         "day": "#eb6e00"
       }
+    },
+    {
+      "name": "orange_20",
+      "values": {
+        "day": "#ff3219"
+      }
     }
   ],
   "text_styles": [
@@ -311,7 +317,7 @@
       "font_size": "10",
       "line_height": "12",
       "letterspacing": "1.5",
-      "color": "red_10",
+      "color": "orange_20",
       "alignment": "left"
     }
   ],
