@@ -69,33 +69,6 @@
       "alignment": "left"
     },
     {
-      "name": "l_headline_small_hard",
-      "typeface": "cheltenham_small_bold",
-      "font_size": "14",
-      "line_height": "18 ",
-      "letterspacing": "0.2",
-      "color": "gray_10",
-      "alignment": "left"
-    },
-    {
-      "name": "l_headline_medium_hard",
-      "typeface": "cheltenham_bold",
-      "font_size": "19",
-      "line_height": "22",
-      "letterspacing": "0.2",
-      "color": "gray_10",
-      "alignment": "left"
-    },
-    {
-      "name": "l_headline_medium_soft",
-      "typeface": "cheltenham_bold",
-      "font_size": "19",
-      "line_height": "22",
-      "letterspacing": "0.2",
-      "color": "gray_10",
-      "alignment": "left"
-    },
-    {
       "name": "s_headline_large_hard",
       "typeface": "cheltenham_bold",
       "font_size": "28",
@@ -147,6 +120,33 @@
       "line_height": "31",
       "letterspacing": "0.1",
       "color": "gray_10",
+      "alignment": "centered"
+    },
+    {
+      "name": "l_headline_small_hard",
+      "typeface": "cheltenham_small_bold",
+      "font_size": "14",
+      "line_height": "18 ",
+      "letterspacing": "0.2",
+      "color": "gray_10",
+      "alignment": "left"
+    },
+    {
+      "name": "l_headline_medium_hard",
+      "typeface": "cheltenham_bold",
+      "font_size": "19",
+      "line_height": "22",
+      "letterspacing": "0.2",
+      "color": "gray_10",
+      "alignment": "left"
+    },
+    {
+      "name": "l_headline_medium_soft",
+      "typeface": "cheltenham_bold",
+      "font_size": "19",
+      "line_height": "22",
+      "letterspacing": "0.2",
+      "color": "gray_10",
       "alignment": "left"
     },
     {
@@ -192,7 +192,7 @@
       "line_height": "44",
       "letterspacing": "0",
       "color": "gray_10",
-      "alignment": "left"
+      "alignment": "centered"
     },
     {
       "name": "l_excerpt_large_hard",
@@ -294,7 +294,7 @@
       "alignment": "left"
     },
     {
-      "name": "breaking",
+      "name": "status_breaking",
       "typeface": "cheltenham_medium",
       "font_size": "10",
       "line_height": "12",
@@ -303,7 +303,7 @@
       "alignment": "left"
     },
     {
-      "name": "developing",
+      "name": "status_developing",
       "typeface": "cheltenham_medium",
       "font_size": "10",
       "line_height": "12",
@@ -312,7 +312,7 @@
       "alignment": "left"
     },
     {
-      "name": "live",
+      "name": "status_live",
       "typeface": "cheltenham_medium",
       "font_size": "10",
       "line_height": "12",
@@ -375,9 +375,6 @@
         "rendition": [
           "whole"
         ],
-        "column": [
-          1
-        ],
         "viewport": [
           "small"
         ],
@@ -393,9 +390,6 @@
         ],
         "rendition": [
           "whole"
-        ],
-        "column": [
-          1
         ],
         "viewport": [
           "small"
@@ -414,7 +408,8 @@
           "large"
         ],
         "tone": [
-          "hard"
+          "hard",
+          "soft"
         ],
         "text_style": "l_headline_small_hard"
       },
@@ -424,6 +419,7 @@
           "bullet",
           "author",
           "excerpt",
+          "text",
           "visual",
           "slideshow"
         ],
@@ -444,8 +440,7 @@
           "bullet",
           "author",
           "excerpt",
-          "visual",
-          "slideshow"
+          "text"
         ],
         "rendition": [
           "whole"
@@ -464,10 +459,27 @@
       },
       {
         "type": [
+          "visual",
+          "slideshow"
+        ],
+        "rendition": [
+          "whole"
+        ],
+        "viewport": [
+          "large"
+        ],
+        "tone": [
+          "hard"
+        ],
+        "text_style": "l_headline_medium_hard"
+      },
+      {
+        "type": [
           "standard",
           "bullet",
           "author",
           "excerpt",
+          "text",
           "visual",
           "slideshow"
         ],
@@ -488,8 +500,7 @@
           "bullet",
           "author",
           "excerpt",
-          "visual",
-          "slideshow"
+          "text"
         ],
         "rendition": [
           "whole"
@@ -508,19 +519,11 @@
       },
       {
         "type": [
-          "standard",
-          "bullet",
-          "author",
-          "excerpt",
           "visual",
           "slideshow"
         ],
         "rendition": [
           "whole"
-        ],
-        "column": [
-          1,
-          2
         ],
         "viewport": [
           "large"
@@ -539,9 +542,6 @@
         ],
         "rendition": [
           "whole"
-        ],
-        "column": [
-          1
         ],
         "viewport": [
           "small"
@@ -560,9 +560,6 @@
         ],
         "rendition": [
           "whole"
-        ],
-        "column": [
-          1
         ],
         "viewport": [
           "small"
@@ -649,7 +646,8 @@
           "small"
         ],
         "tone": [
-          "hard"
+          "hard",
+          "soft"
         ],
         "text_style": "s_headline_small_urgent"
       },
@@ -660,14 +658,12 @@
         "rendition": [
           "whole"
         ],
-        "column": [
-          1
-        ],
         "viewport": [
           "small"
         ],
         "tone": [
-          "hard"
+          "hard",
+          "soft"
         ],
         "text_style": "s_headline_large_urgent"
       },
@@ -683,7 +679,8 @@
           "large"
         ],
         "tone": [
-          "hard"
+          "hard",
+          "soft"
         ],
         "text_style": "l_headline_medium_urgent"
       },
@@ -703,7 +700,8 @@
           "large"
         ],
         "tone": [
-          "hard"
+          "hard",
+          "soft"
         ],
         "text_style": "l_headline_medium_urgent"
       },
@@ -722,7 +720,8 @@
           "large"
         ],
         "tone": [
-          "hard"
+          "hard",
+          "soft"
         ],
         "text_style": "l_headline_large_urgent"
       },
@@ -732,9 +731,6 @@
         ],
         "rendition": [
           "whole"
-        ],
-        "column": [
-          1
         ],
         "viewport": [
           "small"
@@ -750,9 +746,6 @@
         ],
         "rendition": [
           "whole"
-        ],
-        "column": [
-          1
         ],
         "viewport": [
           "small"
@@ -809,7 +802,7 @@
         "viewport": [
           "small"
         ],
-        "tone": [
+        "block": [
           "feed"
         ],
         "text_style": "s_headline_small_hard"
@@ -822,7 +815,7 @@
           "medium",
           "large"
         ],
-        "tone": [
+        "block": [
           "feed"
         ],
         "text_style": "l_headline_small_hard"
@@ -1004,16 +997,20 @@
     ],
     "status": [
       {
+        "status": ["default"],
+        "text_style": "hidden"
+      },
+      {
         "status": ["breaking"],
-        "text_style": "breaking"
+        "text_style": "status_breaking"
       },
       {
         "status": ["developing"],
-        "text_style": "developing"
+        "text_style": "status_developing"
       },
       {
         "status": ["live"],
-        "text_style": "live"
+        "text_style": "status_live"
       }
     ]
   }
