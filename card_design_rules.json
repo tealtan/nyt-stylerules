@@ -186,6 +186,15 @@
       "alignment": "left"
     },
     {
+      "name": "l_headline_large_urgent",
+      "typeface": "cheltenham_extra_bold_italic",
+      "font_size": "36",
+      "line_height": "38",
+      "letterspacing": "0",
+      "color": "gray_10",
+      "alignment": "centered"
+    },
+    {
       "name": "l_headline_xlarge_urgent",
       "typeface": "cheltenham_extra_bold_italic",
       "font_size": "40",
@@ -724,6 +733,26 @@
           "soft"
         ],
         "text_style": "l_headline_large_urgent"
+      },
+      {
+        "type": [
+          "urgent"
+        ],
+        "rendition": [
+          "whole"
+        ],
+        "column": [
+          4
+        ],
+        "viewport": [
+          "medium",
+          "large"
+        ],
+        "tone": [
+          "hard",
+          "soft"
+        ],
+        "text_style": "l_headline_xlarge_urgent"
       },
       {
         "type": [
