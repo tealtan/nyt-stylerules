@@ -856,8 +856,7 @@
           "standard",
           "bullet",
           "urgent",
-          "author",
-          "excerpt"
+          "author"
         ],
         "rendition": [
           "skim"
@@ -872,14 +871,10 @@
           "standard",
           "bullet",
           "urgent",
-          "author",
-          "excerpt"
+          "author"
         ],
         "rendition": [
           "whole"
-        ],
-        "column": [
-          1
         ],
         "viewport": [
           "small"
@@ -891,7 +886,7 @@
           "text"
         ],
         "rendition": [
-          "skim"
+          "whole"
         ],
         "viewport": [
           "small"
@@ -908,42 +903,6 @@
         "rendition": [
           "whole"
         ],
-        "column": [
-          1
-        ],
-        "viewport": [
-          "small"
-        ],
-        "tone": [
-          "hard"
-        ],
-        "text_style": "s_summary_large_hard"
-      },
-      {
-        "type": [
-          "text"
-        ],
-        "rendition": [
-          "skim"
-        ],
-        "viewport": [
-          "small"
-        ],
-        "tone": [
-          "soft"
-        ],
-        "text_style": "s_summary_large_soft"
-      },
-      {
-        "type": [
-          "text"
-        ],
-        "rendition": [
-          "whole"
-        ],
-        "column": [
-          1
-        ],
         "viewport": [
           "small"
         ],
@@ -954,27 +913,21 @@
       },
       {
         "rendition": [
-          "skim"
-        ],
-        "viewport": [
-          "medium"
-        ],
-        "text_style": "m_summary"
-      },
-      {
-        "rendition": [
+          "skim",
           "whole"
         ],
-        "column": [
-          1,
-          2
-        ],
         "viewport": [
           "medium"
         ],
         "text_style": "m_summary"
       },
       {
+        "type": [
+          "standard",
+          "bullet",
+          "urgent",
+          "author"
+        ],
         "rendition": [
           "skim",
           "whole"
@@ -983,6 +936,23 @@
           "large"
         ],
         "text_style": "l_summary"
+      },
+      {
+        "type": [
+          "excerpt",
+          "visual"
+        ],
+        "rendition": [
+          "skim",
+          "whole"
+        ],
+        "text_style": "hidden"
+      }
+      {
+        "rendition": [
+          "headline"
+        ],
+        "text_style": "hidden"
       }
     ],
     "timestamp": [
