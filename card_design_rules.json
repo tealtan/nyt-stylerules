@@ -856,7 +856,8 @@
           "standard",
           "bullet",
           "urgent",
-          "author"
+          "author",
+          "text"
         ],
         "rendition": [
           "skim"
@@ -871,7 +872,8 @@
           "standard",
           "bullet",
           "urgent",
-          "author"
+          "author",
+          "video"
         ],
         "rendition": [
           "whole"
@@ -926,7 +928,8 @@
           "standard",
           "bullet",
           "urgent",
-          "author"
+          "author",
+          "text"
         ],
         "rendition": [
           "skim",
@@ -939,11 +942,35 @@
       },
       {
         "type": [
-          "excerpt",
-          "visual"
+          "video"
         ],
         "rendition": [
-          "skim",
+          "whole"
+        ],
+        "viewport": [
+          "large"
+        ],
+        "text_style": "l_summary"
+      },
+      {
+        "type": [
+          "excerpt",
+          "visual",
+          "slideshow",
+          "video"
+        ],
+        "rendition": [
+          "skim"
+        ],
+        "text_style": "hidden"
+      },
+      {
+        "type": [
+          "excerpt",
+          "visual",
+          "slideshow"
+        ],
+        "rendition": [
           "whole"
         ],
         "text_style": "hidden"
