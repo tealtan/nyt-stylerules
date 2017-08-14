@@ -31,6 +31,12 @@
       }
     },
     {
+      "name": "gray_60",
+      "values": {
+        "day": "#999999"
+      }
+    },
+    {
       "name": "breaking-color",
       "values": {
         "day": "#d0021b"
@@ -285,6 +291,78 @@
       "alignment": "centered"
     },
     {
+      "name": "s_byline_small",
+      "typeface": "cheltenham_medium",
+      "font_size": "22",
+      "line_height": "27",
+      "letterspacing": "0.2",
+      "color": "gray_60",
+      "alignment": "left"
+    },
+    {
+      "name": "s_byline_large",
+      "typeface": "cheltenham_extra_light",
+      "font_size": "32",
+      "line_height": "36 ",
+      "letterspacing": "0.2",
+      "color": "gray_60",
+      "alignment": "left"
+    },
+    {
+      "name": "m_byline_small",
+      "typeface": "cheltenham_medium",
+      "font_size": "15",
+      "line_height": "20",
+      "letterspacing": "0.2",
+      "color": "gray_60",
+      "alignment": "left"
+    },
+    {
+      "name": "m_byline_medium",
+      "typeface": "cheltenham_medium",
+      "font_size": "20",
+      "line_height": "22",
+      "letterspacing": "0.2",
+      "color": "gray_60",
+      "alignment": "left"
+    },
+    {
+      "name": "m_byline_large",
+      "typeface": "cheltenham_extra_light",
+      "font_size": "28",
+      "line_height": "31",
+      "letterspacing": "0.1",
+      "color": "gray_60",
+      "alignment": "left"
+    },
+    {
+      "name": "l_byline_small",
+      "typeface": "cheltenham_small_bold",
+      "font_size": "14",
+      "line_height": "18 ",
+      "letterspacing": "0.2",
+      "color": "gray_60",
+      "alignment": "left"
+    },
+    {
+      "name": "l_byline_medium",
+      "typeface": "cheltenham_medium",
+      "font_size": "19",
+      "line_height": "22",
+      "letterspacing": "0.2",
+      "color": "gray_60",
+      "alignment": "left"
+    },
+    {
+      "name": "l_byline_large",
+      "typeface": "cheltenham_extra_light",
+      "font_size": "28",
+      "line_height": "31",
+      "letterspacing": "0.1",
+      "color": "gray_60",
+      "alignment": "left"
+    },
+    {
       "name": "l_excerpt_large_hard",
       "typeface": "cheltenham_book",
       "font_size": "28",
@@ -421,7 +499,8 @@
           "author",
           "excerpt",
           "visual",
-          "slideshow"
+          "slideshow",
+          "video"
         ],
         "rendition": [
           "headline",
@@ -443,7 +522,8 @@
           "author",
           "excerpt",
           "visual",
-          "slideshow"
+          "slideshow",
+          "video"
         ],
         "rendition": [
           "headline",
@@ -510,7 +590,8 @@
           "excerpt",
           "text",
           "visual",
-          "slideshow"
+          "slideshow",
+          "video"
         ],
         "rendition": [
           "skim"
@@ -531,7 +612,8 @@
           "excerpt",
           "text",
           "visual",
-          "slideshow"
+          "slideshow",
+          "video"
         ],
         "rendition": [
           "skim"
@@ -582,7 +664,8 @@
           "bullet",
           "author",
           "excerpt",
-          "text"
+          "text",
+          "video"
         ],
         "rendition": [
           "whole"
@@ -604,7 +687,8 @@
           "bullet",
           "author",
           "excerpt",
-          "text"
+          "text",
+          "video"
         ],
         "rendition": [
           "whole"
@@ -626,7 +710,8 @@
           "bullet",
           "author",
           "excerpt",
-          "text"
+          "text",
+          "video"
         ],
         "rendition": [
           "whole"
@@ -650,7 +735,8 @@
           "bullet",
           "author",
           "excerpt",
-          "text"
+          "text",
+          "video"
         ],
         "rendition": [
           "whole"
@@ -689,7 +775,8 @@
           "excerpt",
           "text",
           "visual",
-          "slideshow"
+          "slideshow",
+          "video"
         ],
         "rendition": [
           "skim"
@@ -708,7 +795,8 @@
           "bullet",
           "author",
           "excerpt",
-          "text"
+          "text",
+          "video"
         ],
         "rendition": [
           "whole"
@@ -749,7 +837,8 @@
           "excerpt",
           "text",
           "visual",
-          "slideshow"
+          "slideshow",
+          "video"
         ],
         "rendition": [
           "skim"
@@ -768,7 +857,8 @@
           "bullet",
           "author",
           "excerpt",
-          "text"
+          "text",
+          "video"
         ],
         "rendition": [
           "whole"
@@ -806,7 +896,8 @@
           "standard",
           "bullet",
           "author",
-          "text"
+          "text",
+          "video"
         ],
         "rendition": [
           "whole"
@@ -824,7 +915,8 @@
           "standard",
           "bullet",
           "author",
-          "text"
+          "text",
+          "video"
         ],
         "rendition": [
           "whole"
@@ -842,7 +934,8 @@
           "standard",
           "bullet",
           "author",
-          "text"
+          "text",
+          "video"
         ],
         "rendition": [
           "whole"
@@ -864,7 +957,8 @@
           "standard",
           "bullet",
           "author",
-          "text"
+          "text",
+          "video"
         ],
         "rendition": [
           "whole"
@@ -1181,6 +1275,128 @@
         "text_style": "l_headline_small"
       }
     ],
+      "byline": [
+    {
+      "type": [
+        "author"
+      ],
+      "rendition": [
+        "headline",
+        "skim"
+      ],
+      "viewport": [
+        "small"
+      ],
+      "text_style": "s_byline_small"
+    },
+    {
+      "type": [
+        "author"
+      ],
+      "rendition": [
+        "whole"
+      ],
+      "viewport": [
+        "small"
+      ],
+      "text_style": "s_byline_large"
+    },
+    {
+      "rendition": [
+        "headline"
+      ],
+      "viewport": [
+        "medium"
+      ],
+      "text_style": "m_byline_small"
+    },
+    {
+      "type": [
+        "author"
+      ],
+      "rendition": [
+        "skim"
+      ],
+      "viewport": [
+        "medium"
+      ],
+      "text_style": "m_byline_medium"
+    },
+    {
+      "type": [
+        "author"
+      ],
+      "rendition": [
+        "whole"
+      ],
+      "column": [
+        1
+      ],
+      "viewport": [
+        "medium"
+      ],
+      "text_style": "m_byline_medium"
+    },
+    {
+      "type": [
+        "author"
+      ],
+      "rendition": [
+        "whole"
+      ],
+      "column": [
+        2,
+        3,
+        4
+      ],
+      "viewport": [
+        "medium"
+      ],
+      "tone": [
+        "hard"
+      ],
+      "text_style": "m_byline_large"
+    },
+    {
+      "rendition": [
+        "headline"
+      ],
+      "viewport": [
+        "large"
+      ],
+      "text_style": "l_byline_small"
+    },
+    {
+      "type": [
+        "author"
+      ],
+      "rendition": [
+        "skim"
+      ],
+      "viewport": [
+        "large"
+      ],
+      "text_style": "l_byline_medium"
+    },
+    {
+      "type": [
+        "author"
+      ],
+      "rendition": [
+        "whole"
+      ],
+      "column": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "viewport": [
+        "large"
+      ],
+      "text_style": "l_byline_large"
+    },
+  ],
     "summary": [
       {
         "type": [
