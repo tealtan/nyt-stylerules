@@ -3,55 +3,64 @@
     {
       "name": "gray_10",
       "values": {
-        "day": "#121212"
+        "day": "#121212",
+        "night":"#fff"
       }
     },
     {
       "name": "gray_20",
       "values": {
-        "day": "#333333"
+        "day": "#333333",
+        "night":"#cccccc"
       }
     },
     {
       "name": "gray_30",
       "values": {
-        "day": "#666666"
+        "day": "#666666",
+        "night":"#cccccc"
       }
     },
     {
       "name": "gray_40",
       "values": {
-        "day": "#999999"
+        "day": "#999999",
+        "night":"#999999"
       }
     },
     {
       "name": "gray_50",
       "values": {
-        "day": "#cccccc"
+        "day": "#cccccc",
+        "night":"#999999"
       }
     },
     {
       "name": "gray_60",
       "values": {
-        "day": "#999999"
+        "day": "#999999",
+        "night":"#e3e3e3"
       }
     },
     {
       "name": "breaking-color",
       "values": {
-        "day": "#d0021b"
+        "day": "#d0021b",
+        "night":"#3884B7"
       }
     },
     {
       "name": "developing-color",
       "values": {
-        "day": "#f48751"
+        "day": "#f48751",
+        "night":"#f48751"
       }
     },
     {
       "name": "live-color",
       "values": {
-        "day": "#ff3219"
+        "day": "#ff3219",
+        "night": "#6288A5"
       }
     }
   ],
